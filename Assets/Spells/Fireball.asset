@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd629f30814493045b179562077f0d10, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: Assembly-CSharp::SO_Spell
+  id: 0
+  level: 3
+  spellSchool: 4
+  targetShape: 2
+  range: 120
+  size: 20
+  saveType: 1
+  damageFormula:
+    damageStats:
+    - number: 8
+      damageType: 4
+      damage: 06000000
+  conditionType: 0
+  concentration: 0
+  effect: {fileID: 8926484042661614526, guid: 32d8c7cb93941e0488b28c6b2e665678, type: 3}
